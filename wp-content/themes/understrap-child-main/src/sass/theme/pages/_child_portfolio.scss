@@ -1,0 +1,216 @@
+// .page-template-cases-referenzen {
+//     .row.tile {
+//         padding: 0 40px;
+//     }
+//     .spinner-grow {
+//         position: relative;
+//         top: -20px;
+//     }
+//     .customers .logos {
+//         text-align: center;
+//         .image {
+//             display: inline-block;
+//             max-width: 160px;
+//             margin-bottom: 20px;
+//         }
+//     }
+//     .customers .logos .image {
+//         width: 160px;
+//         float: left;
+//         display: block;
+//     }
+// }
+body.page-template-page-portfolio {
+  background: $blue;
+  #full-width-page-wrapper {
+    background: $blue;
+  }
+  .container.result {
+    padding-bottom: 100px;
+    min-height: 90vh;
+  }
+  h1 {
+    color: $white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .teaser.rectangle {
+    // filter: hue-rotate(0deg);
+    // animation: filter-animation 6s infinite;
+    // transition: .3s ease-in-out;
+    // &:nth-child(2) {
+    //     animation: filter-animation 7s infinite;
+    // }
+    // &:nth-child(3) {
+    //     animation: filter-animation 5s infinite;
+    // }
+    @include media-breakpoint-up(sm) {
+      //padding: 10px;
+    }
+    .inner {
+      background: $white;
+      // height: 420px;
+      //position: relative;
+      .image-overlay {
+        width: 100%;
+        height: 100%;
+      }
+      .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.2s ease-in-out;
+        // filter: brightness(70%);
+      }
+      .content {
+        background: transparent;
+        width: 100%;
+        color: $gray-900;
+        padding-left: 20px;
+        left: 0;
+        height: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+        .inner-wrapper {
+          .kunde {
+            text-align: left;
+            margin-bottom: 0;
+          }
+        }
+        .branche,
+        .kunde {
+          font-size: 19px;
+          font-family: "Tablet Gothic Narrow W01 Rg";
+          letter-spacing: -0.2px;
+        }
+        .branche {
+          text-align: right;
+          position: relative;
+          top: 0;
+        }
+        .titel {
+          font-family: "Tablet Gothic Narrow W01 Bold";
+          font-size: 46px;
+          line-height: 51px;
+          letter-spacing: -0.2px;
+          margin: auto;
+          transition: color, font-size 0.2s ease;
+          text-align: left;
+          color: $white;
+        }
+        .btn-link {
+          display: inline-block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          background: transparent;
+          border-radius: 3px;
+          .on-hover {
+            opacity: 0;
+            color: $white;
+          }
+          .icon:before {
+            font-size: 23px;
+            position: relative;
+            top: 2px;
+            left: 4px;
+          }
+        }
+      }
+    }
+    .image {
+      text-align: center;
+      height: 100%;
+      margin: auto;
+    }
+    .content:hover {
+      img {
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .btn {
+      display: block;
+    }
+  }
+}
+
+.teaser {
+  // position: relative;
+  // overflow: hidden;
+}
+
+// Hover Styles
+.teaser.rectangle a:hover img {
+  transform: scale(1.01);
+}
+
+.teaser.rectangle a:hover .hover_content {
+  display: block;
+}
+
+.teaser.rectangle a img {
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+
+.hover_content {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  opacity: 1;
+}
+
+.teaser.rectangle img {
+  border-radius: 10px;
+}
+
+@include media-breakpoint-up(md) {
+  .teaser.rectangle a:hover {
+    img {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      margin: auto;
+      opacity: 0.2;
+    }
+    .content .btn-link {
+      background: $blue;
+      color: $white;
+      text-decoration: none;
+      transition: 0.2s ease;
+      .on-hover {
+        opacity: 1;
+      }
+      &:hover {
+        color: $red;
+        text-decoration: none;
+        .on-hover {
+          opacity: 1;
+          color: $red;
+        }
+        .icon:before {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(100deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}

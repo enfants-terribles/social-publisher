@@ -1,0 +1,33 @@
+$primary: #ffffff;
+$secondary: #04273e;
+$red: #ff2e48;
+$cyan: #76d8e5;
+$blue: #04273e;
+$gray-fb: #fbfbfb;
+$green: #b0e885;
+$theme-colors: ();
+$custom-colors: (
+  "blue": $blue,
+  "cyan": $cyan,
+  "primary": $primary,
+  "secondary": $secondary,
+  "gray-fb": $gray-fb,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$karla: "Karla";
+$neo: "Noe";
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1600px,
+);

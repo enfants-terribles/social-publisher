@@ -1,0 +1,175 @@
+.section_contact {
+  color: $white;
+  font-size: 18px;
+  padding-bottom: 100px;
+  .headline {
+    font-size: 72px;
+    line-height: 69px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .channels {
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    color: $white;
+    margin-right: 12px;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    .hover {
+      opacity: 0;
+      position: fixed;
+      bottom: 66px;
+      right: 0;
+      transition: ease-in-out 0.7s opacity;
+    }
+    &:hover {
+      .hover {
+        opacity: 0.4;
+        svg {
+          fill: $red;
+          // height: 50vw;
+          // width: 50vw;
+        }
+      }
+      svg {
+        fill: $red;
+      }
+    }
+  }
+  svg {
+    fill: $white;
+    transition: 0.2s ease-in-out;
+  }
+  .xing svg {
+    width: 38px;
+    height: 38px;
+  }
+  .menu-basic-container ul {
+    list-style-type: none;
+    padding: 20px 10px 0;
+    li {
+      a {
+        color: $white;
+        margin: 0 10px;
+        position: relative;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      &.current-menu-item a {
+        color: $red;
+      }
+    }
+  }
+  a._brlbs-btn-cookie-preference {
+    top: -15px;
+    background: transparent !important;
+    padding: 0 12px;
+    &:hover {
+      background: transparent !important;
+      color: $red !important;
+    }
+  }
+  &.small {
+    color: $blue;
+    padding: 33px 0 100px 0;
+    .right {
+    }
+    a,
+    .menu-basic-container ul {
+      li {
+        display: inline-block;
+
+        a {
+          color: $blue;
+          font-size: 16px;
+        }
+        &.current-menu-item a {
+          color: $red;
+        }
+      }
+    }
+    &.bg-blue {
+      h5 {
+        color: $white;
+      }
+      .menu-basic-container ul li {
+        a {
+          color: $white;
+        }
+
+        &.current-menu-item a {
+          color: $red;
+        }
+      }
+      a._brlbs-btn-cookie-preference {
+        color: $white !important;
+      }
+      svg {
+        fill: $white;
+      }
+      a:hover svg {
+        fill: $red;
+      }
+    }
+    a {
+      color: $blue;
+      font-size: 16px;
+    }
+    .menu-basic-container ul {
+      margin: 0;
+      padding-left: 0;
+      li:first-child a {
+        margin-left: 0;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 0 0 0 10px;
+      }
+    }
+
+    a._brlbs-btn-cookie-preference {
+      color: $blue !important;
+      margin: 0;
+      top: 0;
+      padding-right: 0;
+    }
+    svg {
+      fill: $blue;
+    }
+    h5 {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+  ul#menu-seo {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 35px;
+    li {
+      display: inline-block;
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+      a {
+        font-size: 15px;
+        &:hover {
+          color: $red;
+        }
+      }
+    }
+  }
+  /* Footer small */
+  .right {
+    ul#menu-seo {
+      margin-top: 0;
+    }
+  }
+}

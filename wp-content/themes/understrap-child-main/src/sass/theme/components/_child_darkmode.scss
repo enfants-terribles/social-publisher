@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+body.dark {
+    --body-color: #04273e;
+    --nav-color: #242526;
+    color: $white;
+    &.home .section_one {
+        background: $white;
+        color: $blue;
+    }
+    .swiper-pagination-bullet {
+        background: $white;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background: $red;
+    }
+    .bg-blue {
+        background: $white;
+        color: $blue;
+    }
+    .section_contact a {
+        color: $blue;
+    }
+    .filter .searchandfilter ul li li label {
+        background: $white;
+        color: $blue
+    }
+    .filter .searchandfilter ul li li.sf-option-active label {
+        background: $red;
+        .menu-basic-container ul li a {
+            color: $white;
+        }
+    }
+    #wrapper-footer {
+        background: $white;
+        color: $blue;
+    }
+}
+
+.darkLight-searchBox {
+    .dark-light {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+    }
+    .searchToggle {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+    }
+}
+
+.dark-light {
+    i {
+        position: absolute;
+        color: var(--text-color);
+        font-size: 22px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        width: 30px;
+        height: 30px;
+        left: 150px;
+        top: 3px;
+    }
+    i.sun {
+        opacity: 0;
+        pointer-events: none;
+        left: 147px;
+    }
+}
+
+.dark-light.active {
+    i.sun {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    i.moon {
+        opacity: 0;
+        pointer-events: none;
+    }
+}

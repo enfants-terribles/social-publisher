@@ -1,0 +1,150 @@
+#wrapper-navbar {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: transform 0.4s;
+  .navbar-brand {
+    img {
+      width: 151px;
+    }
+  }
+  .fast-contact {
+    position: relative;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    z-index: 10000;
+    // transition: 0.6s ease-in-out;
+    top: 0;
+    right: 0;
+    @include media-breakpoint-up(sm) {
+      width: 118px;
+    }
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 15px;
+      z-index: 1000;
+      top: unset;
+    }
+    a {
+      text-decoration: none;
+      &.phone {
+        svg {
+          width: 30px;
+          height: 30px;
+          fill: $blue;
+          transition: all 0.2s;
+        }
+      }
+      &.mail {
+        position: relative;
+        left: 20px;
+        top: 2px;
+        svg {
+          width: 30px;
+          height: 22px;
+          fill: $blue;
+          transition: all 0.2s;
+        }
+      }
+      &:hover.phone {
+        svg {
+          fill: $red;
+        }
+      }
+      &:hover.mail {
+        svg {
+          fill: $red;
+        }
+      }
+    }
+    &.move {
+      top: 330px;
+      right: -55px;
+      transition: 0.25s ease-in-out;
+      @include media-breakpoint-up(sm) {
+        right: -70px;
+      }
+    }
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: $blue;
+    &:hover {
+      color: $red;
+    }
+  }
+  .menu-item.active .nav-link {
+    color: $red;
+  }
+  @include media-breakpoint-down(md) {
+    #main-menu {
+      opacity: 0;
+      &.showtext {
+        opacity: 1;
+        transition: 0.2s ease-in-out;
+      }
+    }
+  }
+}
+
+/* Preloader  */
+
+.preloader {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.prl-logo {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.3rem;
+  z-index: 2;
+}
+
+/* Sliders  */
+
+.lightCyan-slider,
+.persianGreen-slider,
+.white-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+}
+
+.lightCyan-slider {
+  background: $blue;
+}
+
+.persianGreen-slider {
+  background: $cyan;
+}
+
+.white-slider {
+  background: #fff;
+}
+
+.hide {
+  opacity: 0;
+  color: #03a6a6;
+  font-weight: lighter;
+}
+
+.scroll-down #wrapper-navbar {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up #wrapper-navbar {
+  transform: none;
+}

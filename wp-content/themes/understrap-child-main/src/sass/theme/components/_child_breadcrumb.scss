@@ -1,0 +1,33 @@
+.breadcrumb {
+  font-size: 20px;
+  line-height: 32px;
+  color: $secondary;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -20px;
+  @include media-breakpoint-up(md) {
+    margin-left: 6px;
+  }
+  a {
+    color: $secondary;
+    position: relative;
+    margin-right: 15px;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background-image: linear-gradient(92deg, #ff2e48 -27%, #76d8e5 110%);
+    }
+    &.home-link {
+      &:after {
+        display: none;
+      }
+      svg {
+        fill: $secondary;
+      }
+    }
+  }
+}
