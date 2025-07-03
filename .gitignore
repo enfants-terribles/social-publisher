@@ -1,9 +1,15 @@
-# Ignore node_modules and system files
+# Node modules and build output
 node_modules/
-.DS_Store
-.history/
-.vscode/
 dist/
-build-plugin.sh
 
-# Keep everything else
+# Editor and system files
+.vscode/
+.history/
+.DS_Store
+
+# Package manager lock files (choose based on your workflow)
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore everything else if needed
+# (Optional, not necessary if plugin root is the Git root)
