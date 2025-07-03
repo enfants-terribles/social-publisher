@@ -73,4 +73,5 @@ For more information, see: [GPL-2.0 License](https://www.gnu.org/licenses/gpl-2.
 == Development ==  
 
 For requests or feature suggestions, visit:  
-[https://www.enfants.de](https://www.enfants.de)
+[https://www.enfants.de](https://www.enfants.de)  
+A German version of this README is available here: [README-de.md](README-de.md)
