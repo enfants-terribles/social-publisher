@@ -1,6 +1,7 @@
 # Node modules and build output
 node_modules/
 dist/
+build-plugin.sh
 
 # Editor and system files
 .vscode/

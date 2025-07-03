@@ -8,69 +8,69 @@ Stable tag: 1.1.0
 License: GPL-2.0+  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-Social Publisher veröffentlicht WordPress-Beiträge automatisch auf LinkedIn mit einem benutzerdefinierten Text und Bild.  
+Social Publisher automatically publishes WordPress posts to LinkedIn with a custom text and image.
 
-== Beschreibung ==  
+== Description ==  
 
-Mit dem **Social Publisher** kannst du WordPress-Beiträge automatisch auf **LinkedIn** veröffentlichen.  
-Ein eigenes Bild und ein individueller Beitragstext können für LinkedIn hinterlegt werden.  
+With **Social Publisher**, you can automatically publish your WordPress posts to **LinkedIn**.  
+A custom image and a dedicated LinkedIn post text can be defined for each article.
 
-🚀 **Funktionen:**  
-- Automatische Veröffentlichung neuer Beiträge auf LinkedIn  
-- Individuelle Texte für LinkedIn unabhängig vom Blogbeitrag  
-- Optionales Bild für LinkedIn-Posts  
-- Vorschau der LinkedIn-Posts direkt im Admin-Bereich  
+🚀 **Features:**  
+- Automatically publish new posts on LinkedIn  
+- Use custom LinkedIn texts independently from the blog post  
+- Optional image for LinkedIn posts  
+- Preview LinkedIn posts directly in the admin area  
 
-🔒 **Wichtige Hinweise:**  
-- Bereits veröffentlichte Beiträge können hier nicht bearbeitet werden. Änderungen müssen direkt auf LinkedIn vorgenommen werden.  
-- Änderungen an WordPress-Beiträgen haben **keinen Einfluss** auf bereits veröffentlichte LinkedIn-Posts.  
-- Ein LinkedIn-Post wird **nur einmalig** beim ersten Speichern des Beitrags veröffentlicht.  
+🔒 **Important notes:**  
+- Previously published posts cannot be updated. Changes must be made directly on LinkedIn.  
+- Edits to WordPress posts have **no effect** on already published LinkedIn posts.  
+- A LinkedIn post is triggered **only once** at the first save of the post.  
 
-📢 **Geplante Funktionen:**  
-- Unterstützung für weitere soziale Netzwerke  
-- Option für geplante Veröffentlichungen  
-- Automatisierte Hashtag-Generierung  
+📢 **Planned features:**  
+- Support for additional social networks  
+- Option to schedule posts  
+- Automated hashtag generation  
 
 == Installation ==  
 
-1. Lade das Plugin-Verzeichnis `social-publisher` in das Verzeichnis `/wp-content/plugins/` deiner WordPress-Installation hoch.  
-2. Aktiviere das Plugin über das Menü **"Plugins"** in WordPress.  
-3. Öffne die Einstellungen unter **Einstellungen > Social Publisher** und verbinde dein LinkedIn-Konto.  
-4. Beim Erstellen eines neuen Beitrags kannst du die **LinkedIn-Freigabe** aktivieren und einen individuellen Text sowie ein Bild festlegen.  
+1. Upload the `social-publisher` plugin folder to your WordPress installation's `/wp-content/plugins/` directory.  
+2. Activate the plugin via the **"Plugins"** menu in WordPress.  
+3. Open the settings under **Settings > Social Publisher** and connect your LinkedIn account.  
+4. When creating a new post, you can enable **LinkedIn sharing** and set a custom text and image.  
 
 == Screenshots ==  
 
-1. Admin-Oberfläche mit den LinkedIn-Freigabeoptionen  
-2. LinkedIn-Post-Vorschau im Editor  
-3. Erfolgreiche Veröffentlichung eines Beitrags auf LinkedIn  
+1. Admin interface with LinkedIn sharing options  
+2. LinkedIn post preview in the editor  
+3. Successful publication of a post to LinkedIn  
 
-== Häufig gestellte Fragen ==  
+== Frequently Asked Questions ==  
 
-= Werden Änderungen am Beitrag auf LinkedIn aktualisiert? =  
-Nein, einmal veröffentlichte LinkedIn-Beiträge können **nicht** aus WordPress heraus aktualisiert werden. Änderungen müssen direkt auf LinkedIn erfolgen.  
+= Will changes to the post be updated on LinkedIn? =  
+No, once a post is published on LinkedIn, it **cannot** be updated from WordPress. Changes must be made directly on LinkedIn.  
 
-= Kann ich Beiträge planen? =  
-Derzeit noch nicht. Geplante Veröffentlichungen sind für ein zukünftiges Update vorgesehen.  
+= Can I schedule posts? =  
+Not yet. Scheduled publishing is planned for a future update.  
 
-= Wird mein Featured Image automatisch übernommen? =  
-Ja, wenn du kein eigenes LinkedIn-Bild festlegst, wird das Beitragsbild verwendet.  
+= Will my featured image be used automatically? =  
+Yes, if you don’t define a separate LinkedIn image, the post’s featured image will be used.  
 
 == Changelog ==  
 
 = 1.1.0 =  
-* NEU: Beiträge werden nur noch **einmalig beim ersten Speichern** veröffentlicht  
-* NEU: Sicherheitsprüfung für LinkedIn-Veröffentlichung verbessert  
-* NEU: Hinweis im Admin-Bereich für bestehende LinkedIn-Posts hinzugefügt  
+* NEW: Posts are now only published **once at initial save**  
+* NEW: Improved safety checks for LinkedIn publishing  
+* NEW: Admin notice added for already published LinkedIn posts  
 
 = 1.0.0 =  
-* Erste Version mit LinkedIn-Integration  
+* Initial release with LinkedIn integration  
 
-== Lizenz ==  
+== License ==  
 
-Dieses Plugin ist unter der GPL-2.0+ Lizenz veröffentlicht.  
-Mehr Informationen unter: [GPL-2.0-Lizenz](https://www.gnu.org/licenses/gpl-2.0.html).  
+This plugin is released under the GPL-2.0+ license.  
+For more information, see: [GPL-2.0 License](https://www.gnu.org/licenses/gpl-2.0.html).  
 
-== Weiterentwicklung ==  
+== Development ==  
 
-Für Anfragen oder Feature-Wünsche besuche:  
-[https://www.enfants.de](https://www.enfants.de)  
+For requests or feature suggestions, visit:  
+[https://www.enfants.de](https://www.enfants.de)
