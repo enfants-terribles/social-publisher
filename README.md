@@ -1,95 +1,76 @@
-# Social Publisher – Auto-post WordPress content to LinkedIn
+=== Social Publisher ===
+Contributors: enfants-terribles  
+Tags: LinkedIn, Social Media, Auto-Posting, Social Sharing  
+Requires at least: 6.0  
+Tested up to: 6.7.2  
+Requires PHP: 8.1  
+Stable tag: 1.1.0  
+License: GPL-2.0+  
+License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-**Automatically publish your WordPress posts on LinkedIn – with custom texts, images, and full GDPR compliance. Ideal for B2B, agencies, and personal workflows.**
+Social Publisher veröffentlicht WordPress-Beiträge automatisch auf LinkedIn mit einem benutzerdefinierten Text und Bild.  
 
-[→ View on WordPress.org](https://wordpress.org/plugins/social-publisher)  
-[→ Learn more (architecture & GDPR)](https://social-publisher.enfants.de)
+== Beschreibung ==  
 
----
+Mit dem **Social Publisher** kannst du WordPress-Beiträge automatisch auf **LinkedIn** veröffentlichen.  
+Ein eigenes Bild und ein individueller Beitragstext können für LinkedIn hinterlegt werden.  
 
-## 🚀 Features
+🚀 **Funktionen:**  
+- Automatische Veröffentlichung neuer Beiträge auf LinkedIn  
+- Individuelle Texte für LinkedIn unabhängig vom Blogbeitrag  
+- Optionales Bild für LinkedIn-Posts  
+- Vorschau der LinkedIn-Posts direkt im Admin-Bereich  
 
-- 📤 Automatically share posts on LinkedIn upon publishing in WordPress
-- ✏️ Use custom texts and images per post (ACF integration)
-- 👥 Publish to your personal profile or company page
-- 🔁 Recycle evergreen content – perfect for recurring posts
-- 🧩 Fully compatible with Advanced Custom Fields (ACF – free version)
-- 🛡 100% GDPR-compliant via proxy-based LinkedIn API connection
-- 🧑‍💻 Easy to use – no technical knowledge required
+🔒 **Wichtige Hinweise:**  
+- Bereits veröffentlichte Beiträge können hier nicht bearbeitet werden. Änderungen müssen direkt auf LinkedIn vorgenommen werden.  
+- Änderungen an WordPress-Beiträgen haben **keinen Einfluss** auf bereits veröffentlichte LinkedIn-Posts.  
+- Ein LinkedIn-Post wird **nur einmalig** beim ersten Speichern des Beitrags veröffentlicht.  
 
----
+📢 **Geplante Funktionen:**  
+- Unterstützung für weitere soziale Netzwerke  
+- Option für geplante Veröffentlichungen  
+- Automatisierte Hashtag-Generierung  
 
-## 🔐 GDPR & Privacy
+== Installation ==  
 
-- No tracking, no browser-based LinkedIn scripts or cookies
-- All OAuth communication is routed through a secure proxy server  
-  → [https://connect.enfants.de](https://connect.enfants.de)
-- No tokens or user data are stored after authentication
+1. Lade das Plugin-Verzeichnis `social-publisher` in das Verzeichnis `/wp-content/plugins/` deiner WordPress-Installation hoch.  
+2. Aktiviere das Plugin über das Menü **"Plugins"** in WordPress.  
+3. Öffne die Einstellungen unter **Einstellungen > Social Publisher** und verbinde dein LinkedIn-Konto.  
+4. Beim Erstellen eines neuen Beitrags kannst du die **LinkedIn-Freigabe** aktivieren und einen individuellen Text sowie ein Bild festlegen.  
 
-📄 [Privacy Policy](https://social-publisher.enfants.de/privacy/)  
-📄 [Terms of Use](https://social-publisher.enfants.de/terms-of-service/)
+== Screenshots ==  
 
----
+1. Admin-Oberfläche mit den LinkedIn-Freigabeoptionen  
+2. LinkedIn-Post-Vorschau im Editor  
+3. Erfolgreiche Veröffentlichung eines Beitrags auf LinkedIn  
 
-## 💼 Pro Version (coming soon)
+== Häufig gestellte Fragen ==  
 
-The Pro version will offer:
+= Werden Änderungen am Beitrag auf LinkedIn aktualisiert? =  
+Nein, einmal veröffentlichte LinkedIn-Beiträge können **nicht** aus WordPress heraus aktualisiert werden. Änderungen müssen direkt auf LinkedIn erfolgen.  
 
-- Facebook & Instagram auto-posting
-- Multiple LinkedIn accounts
-- Post scheduling & reposting
-- Optional backlink integration
+= Kann ich Beiträge planen? =  
+Derzeit noch nicht. Geplante Veröffentlichungen sind für ein zukünftiges Update vorgesehen.  
 
-**Interested in early access?** Contact [it@enfants.de](mailto:it@enfants.de)
+= Wird mein Featured Image automatisch übernommen? =  
+Ja, wenn du kein eigenes LinkedIn-Bild festlegst, wird das Beitragsbild verwendet.  
 
----
+== Changelog ==  
 
-## 🛠 Installation
+= 1.1.0 =  
+* NEU: Beiträge werden nur noch **einmalig beim ersten Speichern** veröffentlicht  
+* NEU: Sicherheitsprüfung für LinkedIn-Veröffentlichung verbessert  
+* NEU: Hinweis im Admin-Bereich für bestehende LinkedIn-Posts hinzugefügt  
 
-1. Install and activate the plugin
-2. Go to **Settings → Social Publisher**
-3. Connect your LinkedIn account
-4. Choose the target profile (personal or company)
-5. Enable **"Share on LinkedIn"** for your post(s)
+= 1.0.0 =  
+* Erste Version mit LinkedIn-Integration  
 
----
+== Lizenz ==  
 
-## ❓ FAQ
+Dieses Plugin ist unter der GPL-2.0+ Lizenz veröffentlicht.  
+Mehr Informationen unter: [GPL-2.0-Lizenz](https://www.gnu.org/licenses/gpl-2.0.html).  
 
-> **Will editing a WordPress post update the LinkedIn post?**  
-No – changes are not synced. You’ll need to update the LinkedIn post manually.
+== Weiterentwicklung ==  
 
-> **What do I need to use the plugin?**  
-A LinkedIn profile (free), an optional company page, and ACF (free).
-
-> **Is the plugin free?**  
-Yes. The current version is 100% free to use. A Pro version is in development.
-
-> **Can I switch LinkedIn accounts?**  
-Yes. You can disconnect and reconnect in the plugin settings.
-
----
-
-## 📦 Changelog (Highlights)
-
-**1.5.0**
-- Refactored for WordPress.org compliance
-- Consistent `socipu_` prefixing
-- Security: switched to `wp_safe_redirect()`
-- Removed closing PHP tags to avoid header errors
-
-**1.4.2**
-- Externalized all JS for GDPR compliance
-- Improved dropdown handling after auth
-
----
-
-## 📄 License
-
-This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).  
-Use it freely, modify it, contribute – no warranties.
-
----
-
-© [Enfants Terribles](https://www.enfants-terribles.org)  
-**Digital strategies that matter.**
+Für Anfragen oder Feature-Wünsche besuche:  
+[https://www.enfants.de](https://www.enfants.de)  
