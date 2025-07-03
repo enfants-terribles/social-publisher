@@ -1,0 +1,199 @@
+# Copyright (C) 2025 Enfants Terribles digital GmbH
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Publisher 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-publisher\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-02T12:21:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: social-publisher\n"
+
+#. Plugin Name of the plugin
+#: social-publisher.php
+#: dist/social-publisher/includes/admin-settings.php:6
+#: includes/admin-settings.php:6
+msgid "Social Publisher"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: social-publisher.php
+msgid "https://www.enfants.de"
+msgstr ""
+
+#. Description of the plugin
+#: social-publisher.php
+msgid "Automatically publish WordPress posts to LinkedIn – with custom text and image, for both personal profiles and company pages."
+msgstr ""
+
+#. Author of the plugin
+#: social-publisher.php
+msgid "Enfants Terribles digital GmbH"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:5
+#: dist/social-publisher/includes/admin-settings.php:26
+msgid "Social Publisher Einstellungen"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:14
+#: dist/social-publisher/includes/admin-settings.php:15
+msgid "LinkedIn-Veröffentlichung"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:38
+msgid "Verbindung zu LinkedIn trennen"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:42
+#: includes/admin-settings.php:42
+msgid "Hinweis:"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:43
+#: includes/admin-settings.php:43
+msgid "Wenn ein Beitrag nachträglich bearbeitet wird, wirkt sich das nur auf den Blog aus – nicht auf bereits veröffentlichte LinkedIn-Posts. Änderungen am LinkedIn-Beitrag müssen direkt auf LinkedIn vorgenommen werden."
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:47
+msgid "Mehr Infos zum Plugin:"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:57
+msgid "LinkedIn API-Einstellungen"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:63
+msgid "Zielprofil (Unternehmensseite oder persönliches Profil)"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:69
+msgid "Keine verfügbaren Profile. Bitte zuerst mit LinkedIn verbinden."
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:101
+msgid "Mit LinkedIn verbinden"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:112
+msgid "⚠️ Verbindung zu LinkedIn wurde getrennt."
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:136
+#: dist/social-publisher/includes/admin-settings.php:154
+msgid "✅ Erfolgreich mit LinkedIn verbunden!"
+msgstr ""
+
+#: dist/social-publisher/includes/admin-settings.php:156
+msgid "❌ Nicht mit LinkedIn verbunden."
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:387
+#: social-publisher.php:390
+msgid "LinkedIn"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:388
+#: social-publisher.php:391
+msgid "LinkedIn Profil"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:400
+#: social-publisher.php:403
+msgid "Yes"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:402
+#: social-publisher.php:405
+msgid "No"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:434
+#: social-publisher.php:437
+msgid "Personal Profile"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:436
+#: social-publisher.php:439
+msgid "N/A"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:489
+#: dist/social-publisher/social-publisher.php:546
+#: social-publisher.php:492
+#: social-publisher.php:552
+msgid "Invalid request."
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:495
+#: social-publisher.php:498
+msgid "Image ID is missing."
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:505
+#: social-publisher.php:508
+msgid "Image not found."
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:560
+#: social-publisher.php:566
+msgid "Invalid image ID"
+msgstr ""
+
+#: dist/social-publisher/social-publisher.php:585
+#: social-publisher.php:591
+msgid "Einstellungen"
+msgstr ""
+
+#: includes/admin-settings.php:5
+#: includes/admin-settings.php:26
+msgid "Social Publisher Settings"
+msgstr ""
+
+#: includes/admin-settings.php:14
+#: includes/admin-settings.php:15
+msgid "LinkedIn Publishing"
+msgstr ""
+
+#: includes/admin-settings.php:38
+msgid "Disconnect from LinkedIn"
+msgstr ""
+
+#: includes/admin-settings.php:47
+msgid "More information about the plugin:"
+msgstr ""
+
+#: includes/admin-settings.php:57
+msgid "LinkedIn API Settings"
+msgstr ""
+
+#: includes/admin-settings.php:63
+msgid "Target profile (company page or personal profile)"
+msgstr ""
+
+#: includes/admin-settings.php:69
+msgid "No available profiles. Please connect to LinkedIn first."
+msgstr ""
+
+#: includes/admin-settings.php:101
+msgid "Connect with LinkedIn"
+msgstr ""
+
+#: includes/admin-settings.php:112
+msgid "⚠️ Disconnected from LinkedIn."
+msgstr ""
+
+#: includes/admin-settings.php:136
+#: includes/admin-settings.php:154
+msgid "✅ Successfully connected to LinkedIn!"
+msgstr ""
+
+#: includes/admin-settings.php:156
+msgid "❌ Not connected to LinkedIn."
+msgstr ""

@@ -1,0 +1,34 @@
+.linkedin-text-preview {
+    padding: 15px;
+}
+.linkedin-image-preview {
+    width: auto; 
+    height: auto; 
+    margin-top: 15px;
+}
+.socipu-meta-box {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.socipu-meta-success {
+    color: #22863a;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.socipu-icon {
+    margin-right: 4px;
+}
+
+.socipu-meta-republish {
+    display: block;
+    margin-top: 6px;
+}
+
+.socipu-meta-warning {
+    color: orange;
+}
