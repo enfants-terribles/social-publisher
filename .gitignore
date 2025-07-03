@@ -1,13 +1,9 @@
-# Ignore everything by default
-*
+# Ignore node_modules and system files
+node_modules/
+.DS_Store
+.history/
+.vscode/
+dist/
+build-plugin.sh
 
-# Allow only the .gitignore file itself
-!.gitignore
-
-# Allow the plugin folder and its contents
-!wp-content/
-wp-content/*
-!wp-content/plugins/
-wp-content/plugins/*
-!wp-content/plugins/social-publisher/
-!wp-content/plugins/social-publisher/**
+# Keep everything else
