@@ -33,7 +33,7 @@
 
 ## Warum Social Publisher?
 
-Social Publisher macht eine Sache: **WordPress nach LinkedIn**. Keine weiteren Netzwerke, kein separates Dashboard, kein Konto bei uns. Sie schreiben im Editor einen eigenen LinkedIn-Text, wählen ein Bild, sehen die Vorschau und veröffentlichen mit „Veröffentlichen" auf der Website und auf LinkedIn zugleich.
+Social Publisher macht eine Sache: **WordPress nach LinkedIn**. Keine weiteren Netzwerke, kein separates Dashboard, kein Konto bei uns. Sie schreiben im Editor einen eigenen LinkedIn-Text, wählen ein Bild, sehen die Vorschau und veröffentlichen mit „Veröffentlichen" auf der Website. Der Beitrag geht kurz darauf automatisch auch auf LinkedIn.
 
 Entwickelt von einer Agentur, der das Kopieren zwischen CMS und LinkedIn zu lästig wurde. Wir setzen das Plugin selbst jede Woche ein.
 
@@ -49,11 +49,11 @@ Entwickelt von einer Agentur, der das Kopieren zwischen CMS und LinkedIn zu läs
 - Live-Vorschau des LinkedIn-Posts im Editor
 - Persönliche Profile und Unternehmensseiten
 - LinkedIn-Login über einen OAuth-Proxy ohne Tracking
-- Status je Beitrag (in Warteschlange, geteilt, Fehler) im Editor und in der Beitragsliste, Fehlermeldungen mit der Ursache von LinkedIn
+- Status je Beitrag (in Warteschlange, geteilt, Fehler) im Editor und in der Beitragsliste, bei Fehlern mit Ursache und Hinweis zur Behebung
 
 ### PRO
 
-- **KI-Umschreiben** mit Tonalität (informativ, emotional, werblich) und eigener **Brand Voice**, mit Ihrem eigenen OpenAI-API-Schlüssel
+- **KI-Umschreiben** mit Tonalität (informativ, emotional, vertriebsorientiert) und eigener **Brand Voice**, mit Ihrem eigenen OpenAI-API-Schlüssel
 - **Planung** auf Datum und Uhrzeit, zuverlässig über eine Hintergrund-Warteschlange
 - **Repost:** einen bereits veröffentlichten Beitrag erneut auf LinkedIn einplanen
 - **PDF-Karussell:** ein PDF statt eines Bildes anhängen
@@ -103,7 +103,7 @@ PRO kostet **9 € pro Monat und Website** und ist jederzeit kündbar. Early Ado
 
 Der LinkedIn-Login läuft über einen OAuth-Proxy unter `social-publisher.enfants.de`. Auf Ihrer Website werden kein LinkedIn-Skript, kein Cookie und kein Tracking-Pixel geladen.
 
-Die vollständige Liste aller Verbindungen steht im Abschnitt „External services" der [Plugin-Seite auf WordPress.org](https://de.wordpress.org/plugins/social-publisher/). Kurz gesagt: LinkedIn-API zum Verbinden und Veröffentlichen; mit PRO-Lizenz einmal täglich die Lizenzprüfung und die Update-Abfrage; nur bei einem Klick auf „Umschreiben" gehen Text und Brand Voice mit Ihrem eigenen Schlüssel an OpenAI. Für die KI-Funktion brauchen Sie einen Auftragsverarbeitungsvertrag (AVV) mit OpenAI.
+Die vollständige Liste aller Verbindungen steht im Abschnitt „External services" der [Plugin-Seite auf WordPress.org](https://de.wordpress.org/plugins/social-publisher/). Kurz gesagt: LinkedIn-API zum Verbinden und Veröffentlichen; mit PRO-Lizenz einmal täglich die Lizenzprüfung und die Update-Abfrage; nur bei einem Klick auf „Umschreiben" gehen Text und Brand Voice mit Ihrem eigenen Schlüssel an OpenAI. Außerdem gibt es eine optionale, anonyme Feedback-Umfrage. Für die KI-Funktion brauchen Sie gegebenenfalls einen Auftragsverarbeitungsvertrag (AVV) mit OpenAI.
 
 ## Quellcode und Lizenz
 
