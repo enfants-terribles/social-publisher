@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/hero.png" alt="Social Publisher – Auto Post to LinkedIn" width="100%">
+  <img src="screenshots/hero-de.webp" alt="Social Publisher: Direkt aus WordPress zu LinkedIn publishen – DSGVO-konform" width="100%">
 </p>
 
 <h1 align="center">Social Publisher – Auto Post to LinkedIn</h1>
