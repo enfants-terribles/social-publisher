@@ -33,7 +33,7 @@
 
 ## Why Social Publisher?
 
-Social Publisher does one thing: **WordPress to LinkedIn**. No other networks, no separate dashboard, no account with us. You write a dedicated LinkedIn text in the editor, choose an image, check the preview, and publish to your site and LinkedIn in one click.
+Social Publisher does one thing: **WordPress to LinkedIn**. No other networks, no separate dashboard, no account with us. You write a dedicated LinkedIn text in the editor, choose an image, check the preview, and publish to your site. The post goes out to LinkedIn automatically shortly afterwards.
 
 Built by an agency that got tired of the copy-paste routine. We use it ourselves every week.
 
@@ -49,7 +49,7 @@ Built by an agency that got tired of the copy-paste routine. We use it ourselves
 - Live preview of the LinkedIn post in the editor
 - Personal profiles and company pages
 - LinkedIn login through a tracking-free OAuth proxy
-- Sharing status per post (queued, shared, error) in the editor and post list, with the reason from LinkedIn on errors
+- Sharing status per post (queued, shared, error) in the editor and post list, with the reason and a fix hint on errors
 
 ### PRO
 
@@ -103,7 +103,7 @@ PRO costs **9 EUR per month per site** and can be cancelled at any time. Early a
 
 The LinkedIn login runs through an OAuth proxy at `social-publisher.enfants.de`. No LinkedIn script, cookie or tracking pixel is loaded on your site.
 
-The full list of connections is in the "External services" section of the [plugin page on WordPress.org](https://wordpress.org/plugins/social-publisher/). In short: the LinkedIn API for connecting and publishing; with a PRO license, a daily license check and the update check; text and Brand Voice go to OpenAI with your own key only when you click "Rewrite". For the AI feature you need a data processing agreement with OpenAI.
+The full list of connections is in the "External services" section of the [plugin page on WordPress.org](https://wordpress.org/plugins/social-publisher/). In short: the LinkedIn API for connecting and publishing; with a PRO license, a daily license check and the update check; text and Brand Voice go to OpenAI with your own key only when you click "Rewrite". There is also an optional, anonymous feedback survey. For the AI feature you may need a data processing agreement with OpenAI.
 
 ## Source and license
 
