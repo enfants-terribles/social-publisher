@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 English
+</p>
+
+<p align="center">
   <img src="screenshots/hero.png" alt="Social Publisher – Auto Post to LinkedIn" width="100%">
 </p>
 
@@ -16,10 +20,6 @@
   <img src="https://img.shields.io/badge/PHP-7.4%2B-777bb4" alt="PHP 7.4+">
   <img src="https://img.shields.io/badge/Free%20plan-Auto--post%20to%20LinkedIn-brightgreen" alt="Free plan">
   <img src="https://img.shields.io/badge/GDPR-tracking--free%20login-blue" alt="GDPR">
-</p>
-
-<p align="center">
-  <a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 English
 </p>
 
 <p align="center">
@@ -115,5 +115,5 @@ LinkedIn is a trademark of LinkedIn Corporation. Social Publisher is not affilia
 
 - Website: [social-publisher.enfants.de](https://social-publisher.enfants.de/)
 - Support forum: [wordpress.org/support/plugin/social-publisher](https://wordpress.org/support/plugin/social-publisher/)
-- The same team builds [Enfants IMG Performer](https://github.com/enfants-terribles/img-performer): WebP/AVIF and EU AI Act image labeling
+- The same team builds [IMG Performer](https://github.com/enfants-terribles/img-performer): WebP/AVIF and EU AI Act image labeling
 - Made by [enfants terribles](https://enfants.de), Hamburg

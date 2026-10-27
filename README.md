@@ -1,4 +1,8 @@
 <p align="center">
+  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a>
+</p>
+
+<p align="center">
   <img src="screenshots/hero.png" alt="Social Publisher – Auto Post to LinkedIn" width="100%">
 </p>
 
@@ -16,10 +20,6 @@
   <img src="https://img.shields.io/badge/PHP-7.4%2B-777bb4" alt="PHP 7.4+">
   <img src="https://img.shields.io/badge/Kostenlos-Auto--Post%20zu%20LinkedIn-brightgreen" alt="Kostenlose Version">
   <img src="https://img.shields.io/badge/DSGVO-Login%20ohne%20Tracking-blue" alt="DSGVO">
-</p>
-
-<p align="center">
-  🇩🇪 Deutsch · <a href="README.en.md">🇬🇧 English</a>
 </p>
 
 <p align="center">
@@ -115,5 +115,5 @@ LinkedIn ist eine Marke der LinkedIn Corporation. Social Publisher steht in kein
 
 - Website: [social-publisher.enfants.de](https://social-publisher.enfants.de/)
 - Support-Forum: [wordpress.org/support/plugin/social-publisher](https://wordpress.org/support/plugin/social-publisher/)
-- Dasselbe Team entwickelt auch [Enfants IMG Performer](https://github.com/enfants-terribles/img-performer): WebP/AVIF und KI-Bildkennzeichnung nach EU AI Act
+- Dasselbe Team entwickelt auch [IMG Performer](https://github.com/enfants-terribles/img-performer): WebP/AVIF und KI-Bildkennzeichnung nach EU AI Act
 - Entwickelt von [enfants terribles](https://enfants.de), Hamburg
