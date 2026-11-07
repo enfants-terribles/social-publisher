@@ -50,10 +50,11 @@ Entwickelt von einer Agentur, der das Kopieren zwischen CMS und LinkedIn zu läs
 - Persönliche Profile und Unternehmensseiten
 - LinkedIn-Login über einen OAuth-Proxy ohne Tracking
 - Status je Beitrag (in Warteschlange, geteilt, Fehler) im Editor und in der Beitragsliste, bei Fehlern mit Ursache und Hinweis zur Behebung
+- Überwachung der LinkedIn-Verbindung: täglicher Check, Warnung 7 Tage vor Ablauf im Backend und per E-Mail, sofortiger Hinweis, wenn LinkedIn den Login ablehnt
 
 ### PRO
 
-- **KI-Umschreiben** mit Tonalität (informativ, emotional, vertriebsorientiert) und eigener **Brand Voice**, mit Ihrem eigenen OpenAI-API-Schlüssel
+- **KI-Umschreiben** mit Tonalität (informativ, emotional, vertriebsorientiert) und eigener **Brand Voice**, mit dem KI-Anbieter Ihrer Wahl: OpenAI, Claude (Anthropic), Mistral, eigener OpenAI-kompatibler Endpoint oder WordPress-Connectors, Modell je Anbieter wählbar, mit Ihrem eigenen API-Schlüssel
 - **Planung** auf Datum und Uhrzeit, zuverlässig über eine Hintergrund-Warteschlange
 - **Repost:** einen bereits veröffentlichten Beitrag erneut auf LinkedIn einplanen
 - **PDF-Karussell:** ein PDF statt eines Bildes anhängen
@@ -63,7 +64,7 @@ Entwickelt von einer Agentur, der das Kopieren zwischen CMS und LinkedIn zu läs
 
 <table>
   <tr>
-    <td width="50%"><img src="screenshots/screenshot-1.png" alt="Einstellungen"><br><sub>Einstellungen: Profilauswahl, Lizenz, OpenAI-Schlüssel und Brand Voice</sub></td>
+    <td width="50%"><img src="screenshots/screenshot-1.png" alt="Einstellungen"><br><sub>Einstellungen: Profilauswahl, Lizenz, KI-Anbieter und Brand Voice</sub></td>
     <td width="50%"><img src="screenshots/screenshot-2.png" alt="Beitragseditor"><br><sub>Editor mit LinkedIn-Text, Medien, KI-Optionen, Planung und Live-Vorschau</sub></td>
   </tr>
   <tr>
@@ -103,7 +104,7 @@ PRO kostet **9 € pro Monat und Website** und ist jederzeit kündbar. Early Ado
 
 Der LinkedIn-Login läuft über einen OAuth-Proxy unter `social-publisher.enfants.de`. Auf Ihrer Website werden kein LinkedIn-Skript, kein Cookie und kein Tracking-Pixel geladen.
 
-Die vollständige Liste aller Verbindungen steht im Abschnitt „External services" der [Plugin-Seite auf WordPress.org](https://de.wordpress.org/plugins/social-publisher/). Kurz gesagt: LinkedIn-API zum Verbinden und Veröffentlichen; mit PRO-Lizenz einmal täglich die Lizenzprüfung und die Update-Abfrage; nur bei einem Klick auf „Umschreiben" gehen Text und Brand Voice mit Ihrem eigenen Schlüssel an OpenAI. Außerdem gibt es eine optionale, anonyme Feedback-Umfrage. Für die KI-Funktion brauchen Sie gegebenenfalls einen Auftragsverarbeitungsvertrag (AVV) mit OpenAI.
+Die vollständige Liste aller Verbindungen steht im Abschnitt „External services" der [Plugin-Seite auf WordPress.org](https://de.wordpress.org/plugins/social-publisher/). Kurz gesagt: LinkedIn-API zum Verbinden und Veröffentlichen; mit PRO-Lizenz einmal täglich die Lizenzprüfung und die Update-Abfrage; nur bei einem Klick auf „Umschreiben" gehen Text und Brand Voice mit Ihrem eigenen Schlüssel an den von Ihnen gewählten KI-Anbieter (OpenAI, Anthropic, Mistral oder Ihr eigener Endpoint). Außerdem gibt es eine optionale, anonyme Feedback-Umfrage. Für die KI-Funktion brauchen Sie gegebenenfalls einen Auftragsverarbeitungsvertrag (AVV) mit dem gewählten Anbieter.
 
 ## Quellcode und Lizenz
 

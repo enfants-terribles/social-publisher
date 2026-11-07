@@ -49,11 +49,12 @@ Built by an agency that got tired of the copy-paste routine. We use it ourselves
 - Live preview of the LinkedIn post in the editor
 - Personal profiles and company pages
 - LinkedIn login through a tracking-free OAuth proxy
+- LinkedIn connection monitoring: daily check, warning 7 days before expiry in the admin area and by e-mail, immediate notice when LinkedIn rejects the login
 - Sharing status per post (queued, shared, error) in the editor and post list, with the reason and a fix hint on errors
 
 ### PRO
 
-- **AI rewriting** with tone presets (informational, emotional, salesy) and your own **Brand Voice**, using your own OpenAI API key
+- **AI rewriting** with tone presets (informational, emotional, salesy) and your own **Brand Voice**, with the AI provider of your choice: OpenAI, Claude (Anthropic), Mistral, a custom OpenAI-compatible endpoint or WordPress Connectors, model selectable per provider, using your own API key
 - **Scheduling** for a specific date and time, delivered by a background queue
 - **Reposting:** schedule an already published post to go out on LinkedIn again
 - **PDF carousel:** attach a PDF instead of an image
@@ -63,7 +64,7 @@ Built by an agency that got tired of the copy-paste routine. We use it ourselves
 
 <table>
   <tr>
-    <td width="50%"><img src="screenshots/screenshot-1.png" alt="Settings"><br><sub>Settings: profile selection, license, OpenAI key and Brand Voice</sub></td>
+    <td width="50%"><img src="screenshots/screenshot-1.png" alt="Settings"><br><sub>Settings: profile selection, license, AI provider and Brand Voice</sub></td>
     <td width="50%"><img src="screenshots/screenshot-2.png" alt="Post editor"><br><sub>Editor with LinkedIn text, media, AI options, scheduling and live preview</sub></td>
   </tr>
   <tr>
@@ -103,7 +104,7 @@ PRO costs **9 EUR per month per site** and can be cancelled at any time. Early a
 
 The LinkedIn login runs through an OAuth proxy at `social-publisher.enfants.de`. No LinkedIn script, cookie or tracking pixel is loaded on your site.
 
-The full list of connections is in the "External services" section of the [plugin page on WordPress.org](https://wordpress.org/plugins/social-publisher/). In short: the LinkedIn API for connecting and publishing; with a PRO license, a daily license check and the update check; text and Brand Voice go to OpenAI with your own key only when you click "Rewrite". There is also an optional, anonymous feedback survey. For the AI feature you may need a data processing agreement with OpenAI.
+The full list of connections is in the "External services" section of the [plugin page on WordPress.org](https://wordpress.org/plugins/social-publisher/). In short: the LinkedIn API for connecting and publishing; with a PRO license, a daily license check and the update check; text and Brand Voice go to the AI provider you chose (OpenAI, Anthropic, Mistral or your own endpoint) with your own key only when you click "Rewrite". There is also an optional, anonymous feedback survey. For the AI feature you may need a data processing agreement with the chosen provider.
 
 ## Source and license
 
